@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="auction.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="home">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://static.toiimg.com/thumb/msid-77485620,width-400,resizemode-4/77485620.jpg" class="ipl-logo d-flex flex-column justify-content-center" />
+            </div>
+            <h1 class="text1">IPL 2023</h1>
+            <p class="text1">The cricket festival is gonna start</p>
+            <button class="butn" onclick="display('sectionTeams')">KNOW MORE</button>
+        </div>
+    </div>
+    <div id="sectionTeams">
+        <div>
+            <h1 class="text">TEAMS</h1>
+            <p class="text">Click on any team</p>
+            <div class="d-flex flex-column justify-content-center">
+                <div class=" team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionCsk')">
+                    <h2 class="team-logo-text">CHENNAI SUPER KINGS</h2>
+                    <img src=" https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/CSK/logos/Medium/CSK.png" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionDc')">
+                    <h2 class="team-logo-text">DELHI CAPITALS</h2>
+                    <img src=" https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/DC/Logos/Medium/DC.png" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionGt')">
+                    <h2 class="team-logo-text">GUJARAT TITANS</h2>
+                    <img src=" https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/GT/Logos/Medium/GTmedium.png" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionKkr')">
+                    <h2 class="team-logo-text"> KOLKATA KNIGHT RIDERS </h2>
+                    <img src=" https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/KKR/Logos/Medium/KKR.png" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionLsg')">
+                    <h2 class="team-logo-text">LUCKNOW SUPER GIANTS</h2>
+                    <img src=" https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/LSG/Logos/Medium/LSGmedium.png" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionMi')">
+                    <h2 class="team-logo-text">MUMBAI INDIANS</h2>
+                    <img src=" https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/MI/Logos/Medium/MI.png" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionPk')">
+                    <h2 class="team-logo-text">PUNJAB KINGS</h2>
+                    <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/PBKS/Logos/Medium/PBKS.png" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionRr')">
+                    <h2 class="team-logo-text">RAJASTAN ROYALS</h2>
+                    <img src=" https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/RR/Logos/Medium/RR.png" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionRcb')">
+                    <h2 class="team-logo-text">ROYAL CHALLENGERS BANGLORE</h2>
+                    <img src=" https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/RCB/Logos/Medium/RCB.png" class="logo" />
+                </div>
+                <div class="team-logo_bg d-flex flex-row justify-content-center" onclick="display('sectionSrh')">
+                    <h2 class="team-logo-text">SUNRISERS HYDERABAD</h2>
+                    <img src=" https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/SRH/Logos/Medium/SRH.png" class="logo" />
+                </div>
+            </div>
+            <div class="butn1">
+                <button class="butn" onclick="display('sectionHome')">BACK</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionCsk">
+        <div class="team-info-csk">
+            <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/CSK/logos/Medium/CSK.png" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionCskret')">Retained players</h4>
+            <h4 class="text-dec" onclick="display('sectionCsknb')">New Buys</h4>
+            <h4 class="text-dec" onclick="display('sectionCskpl')">My playing 11</h4>
+            <button class="butn" onclick="display('sectionTeams')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionDc">
+        <div class="team-info-dc">
+            <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/DC/Logos/Medium/DC.png" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionDcret')">Retained players</h4>
+            <h4 class="text-dec" onclick="display('sectionDcnb')">New Buys</h4>
+            <h4 class="text-dec" onclick="display('sectionDcpl')">My playing 11</h4>
+            <button class="butn" onclick="display('sectionTeams')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionGt">
+        <div class="team-info-gt">
+            <img src=https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/GT/Logos/Medium/GTmedium.png class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionGtret')">Retained players</h4>
+            <h4 class="text-dec" onclick="display('sectionGtnb')">New Buys</h4>
+            <h4 class="text-dec" onclick="display('sectionGtpl')">My playing 11</h4>
+            <button class="butn" onclick="display('sectionTeams')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionKkr">
+        <div class="team-info-kkr">
+            <img src=" https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/KKR/Logos/Medium/KKR.png" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionKkrret')">Retained players</h4>
+            <h4 class="text-dec" onclick="display('sectionKkrnb')">New Buys</h4>
+            <h4 class="text-dec" onclick="display('sectionKkrpl')">My playing 11</h4>
+            <button class="butn" onclick="display('sectionTeams')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionLsg">
+        <div class="team-info-lsg">
+            <img src=" https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/LSG/Logos/Medium/LSGmedium.png" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionLsgret')">Retained players</h4>
+            <h4 class="text-dec" onclick="display('sectionLsgnb')">New Buys</h4>
+            <h4 class="text-dec" onclick="display('sectionLsgpl')">My playing 11</h4>
+            <button class="butn" onclick="display('sectionTeams')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionMi">
+        <div class="team-info-mi">
+            <img src=" https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/MI/Logos/Medium/MI.png" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionMiret')">Retained players</h4>
+            <h4 class="text-dec" onclick="display('sectionMinb')">New Buys</h4>
+            <h4 class="text-dec" onclick="display('sectionMipl')">My playing 11</h4>
+            <button class="butn" onclick="display('sectionTeams')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionPk">
+        <div class="team-info-pk">
+            <img src=" https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/PBKS/Logos/Medium/PBKS.png" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionPkret')">Retained players</h4>
+            <h4 class="text-dec" onclick="display('sectionPknb')">New Buys</h4>
+            <h4 class="text-dec" onclick="display('sectionPkpl')">My playing 11</h4>
+            <button class="butn" onclick="display('sectionTeams')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionRr">
+        <div class="team-info-rr">
+            <img src=" https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/RR/Logos/Medium/RR.png" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionRrret')">Retained players</h4>
+            <h4 class="text-dec" onclick="display('sectionRrnb')">New Buys</h4>
+            <h4 class="text-dec" onclick="display('sectionRrpl')">My playing 11</h4>
+            <button class="butn" onclick="display('sectionTeams')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionRcb">
+        <div class="team-info-rcb">
+            <img src=" https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/RCB/Logos/Medium/RCB.png" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionRcbret')">Retained players</h4>
+            <h4 class="text-dec" onclick="display('sectionRcbnb')">New Buys</h4>
+            <h4 class="text-dec" onclick="display('sectionRcbpl')">My playing 11</h4>
+            <button class="butn" onclick="display('sectionTeams')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionSrh">
+        <div class="team-info-srh">
+            <img src=" https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/SRH/Logos/Medium/SRH.png" class="logo" />
+            <h1>PLAYERS</h1>
+            <h4 class="text-dec" onclick="display('sectionSrhret')">Retained players</h4>
+            <h4 class="text-dec" onclick="display('sectionSrhnb')">New Buys</h4>
+            <h4 class="text-dec" onclick="display('sectionSrhpl')">My playing 11</h4>
+            <button class="butn" onclick="display('sectionTeams')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionCskret">
+        <div class="team-info-csk">
+            <h1>Retained players</h1>
+            <h4>MS Dhoni</h4>
+            <h4>Moeen Ali</h4>
+            <h4>Shivam Dubey</h4>
+            <h4>Ruturaj Gaikwad</h4>
+            <h4>Ravindra Jadeja</h4>
+            <h4>Ambati Rayudu</h4>
+            <h4>Mahesh Teekshana</h4>
+            <h4>Dwayne Pretorious</h4>
+            <h4>Subhranshu Senapati</h4>
+            <h4>Mitchell Santner</h4>
+            <h4>Mahesh Pathirana</h4>
+            <h4>Tushar Deshpande</h4>
+            <h4>Rajwardhan Hangrekar</h4>
+            <h4>Mukesh Chowdary</h4>
+            <h4>Prashanth Solanki</h4>
+            <h4>Deepak Chahar</h4>
+            <h4>Simarjeet Singh</h4>
+            <button class="butn" onclick="display('sectionCsk')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionDcret">
+        <div class="team-info-dc">
+            <h1>Retained players</h1>
+            <h4>Rishabh Pant</h4>
+            <h4>Prithvi Shaw</h4>
+            <h4>David Warner</h4>
+            <h4>Sarfaraz Khan</h4>
+            <h4>Yash Dhull</h4>
+            <h4>Rovman Powell</h4>
+            <h4>Anrich Nortje</h4>
+            <h4>Kamlesh Nagarkoti</h4>
+            <h4>Mustafizur Rahman</h4>
+            <h4>Lungi Ngidi</h4>
+            <h4>Khaleel Ahmed</h4>
+            <h4>Chetan Sakariya</h4>
+            <h4>Praveen Dubey</h4>
+            <h4>Kuldeep Yadav</h4>
+            <h4>Axar Patel</h4>
+            <h4>Mitchell Marsh</h4>
+            <h4>Lalit Yadav</h4>
+            <h4>Ripal Patel</h4>
+            <h4>Vicky Ostwal</h4>
+            <h4>Aman Khan</h4>
+            <button class="butn" onclick="display('sectionDc')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionGtret">
+        <div class="team-info-gt">
+            <h1>Retained players</h1>
+            <h4>Hardik Pandya</h4>
+            <h4>Shubman Gill</h4>
+            <h4>David Miller</h4>
+            <h4>Abhinav Manohar</h4>
+            <h4>Sai Sudharshan</h4>
+            <h4>Wriddhiman saha</h4>
+            <h4>Matthew Wade</h4>
+            <h4>Rashid Khan</h4>
+            <h4>Rahul Tewatia</h4>
+            <h4>Vijay shankar</h4>
+            <h4>Mohammed Shami</h4>
+            <h4>Alzarri Joseph</h4>
+            <h4>Yash Dayal</h4>
+            <h4>Pradeep Sangwan</h4>
+            <h4>Darshan Nalkande</h4>
+            <h4>Jayanth Yadav</h4>
+            <h4>R Sai Kishore</h4>
+            <h4>Noor Ahmed</h4>
+            <button class="butn" onclick="display('sectionGt')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionKkrret">
+        <div class="team-info-kkr">
+            <h1>Retained players</h1>
+            <h4>Shreyas Iyer</h4>
+            <h4>Nitish rana</h4>
+            <h4>Venkatesh Iyer</h4>
+            <h4>Andre Russell</h4>
+            <h4>Sunil Narine</h4>
+            <h4>Umesh Yadav</h4>
+            <h4>Tim Southee</h4>
+            <h4>Harshit Rana</h4>
+            <h4>Varun Chakravarthy</h4>
+            <h4>Anukul Roy</h4>
+            <h4>Rinku Singh</h4>
+            <button class="butn" onclick="display('sectionKkr')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionLsgret">
+        <div class="team-info-lsg">
+            <h1>Retained players</h1>
+            <h4>KL Rahul</h4>
+            <h4>Ayush Badoni</h4>
+            <h4>Karan Sharma</h4>
+            <h4>Manan Vohra</h4>
+            <h4>Quinton de kock</h4>
+            <h4>Marcus Stoinis</h4>
+            <h4>Krishnappa Gautam</h4>
+            <h4>Deepak Hooda</h4>
+            <h4>Kyle mayers</h4>
+            <h4>Krunal Pandya</h4>
+            <h4>Avesh Khan</h4>
+            <h4>Mohsin khan</h4>
+            <h4>Mark wood</h4>
+            <h4>Mayank Yadav</h4>
+            <h4>Ravi Bishnoi</h4>
+            <button class="butn" onclick="display('sectionLsg')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionMiret">
+        <div class="team-info-mi">
+            <h1>Retained players</h1>
+            <h4>Rohit sharma</h4>
+            <h4>Suryakumar yadav</h4>
+            <h4>Tilak Varma</h4>
+            <h4>Ramandeep Singh</h4>
+            <h4>Dewald Brewis</h4>
+            <h4>Ishan Kishan</h4>
+            <h4>Jasprit Bumrah</h4>
+            <h4>Hrithik Shokean</h4>
+            <h4>Arjun Tendulkar</h4>
+            <h4>Tim David</h4>
+            <h4>Tristan Stubbs</h4>
+            <h4>Arshad Khan</h4>
+            <h4>Akash Madwal</h4>
+            <h4>Jofra Archer</h4>
+            <button class="butn" onclick="display('sectionMi')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionPkret">
+        <div class="team-info-pk">
+            <h1>Retained players</h1>
+            <h4>Shikar Dhawan</h4>
+            <h4>Sharukh Khan</h4>
+            <h4>Jonny Bairstow</h4>
+            <h4>Prabsimran Singh</h4>
+            <h4>Bhanuka Rajapaksha</h4>
+            <h4>Jitesh Sharma</h4>
+            <h4>Raj Bawa</h4>
+            <h4>Liam Livingstone</h4>
+            <h4>Atharva Taide</h4>
+            <h4>Arshdeep Singh</h4>
+            <h4>Baltej Singh</h4>
+            <h4>Nathan Ellis</h4>
+            <h4>Kagiso Rabada</h4>
+            <h4>Rahul Chahar</h4>
+            <h4>Harpreet Brar</h4>
+            <button class="butn" onclick="display('sectionPk')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionRrret">
+        <div class="team-info-rr">
+            <h1>Retained players</h1>
+            <h4>Sanju Samson</h4>
+            <h4>Jos Buttler</h4>
+            <h4>Yashasvi Jaiswal</h4>
+            <h4>Ravichandran Ashwin</h4>
+            <h4>Trent Boult</h4>
+            <h4>Shimron Hetmyer</h4>
+            <h4>Devdutt Padikkal</h4>
+            <h4>Riyan Parag</h4>
+            <h4>KC Cariappa</h4>
+            <h4>Prasidh Krishna</h4>
+            <h4>Yuzvendra Chahal</h4>
+            <h4>Navdeep Saini</h4>
+            <h4>Obed McCoy</h4>
+            <h4>Kuldeep Sen</h4>
+            <h4>Dhruv Jurel</h4>
+            <h4>Kuldip Yadav</h4>
+            <button class="butn" onclick="display('sectionRr')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionRcbret">
+        <div class="team-info-rcb">
+            <h1>Retained players</h1>
+            <h4>Virat Kohli</h4>
+            <h4>Faf du Plessis</h4>
+            <h4>Dinesh Karthik</h4>
+            <h4>Suyash Prabhudessai</h4>
+            <h4>Rajat Patidar</h4>
+            <h4>Anuj Rawat</h4>
+            <h4>Finn Allen</h4>
+            <h4>Glenn Maxwell</h4>
+            <h4>Wanindhu Hasaranga</h4>
+            <h4>Shahbaz Ahmed</h4>
+            <h4>Harshal patel</h4>
+            <h4>David Willey</h4>
+            <h4>Karn Sharma</h4>
+            <h4>Mahipal Lomror</h4>
+            <h4>Mohammed Siraj</h4>
+            <h4>Josh Hazlewood</h4>
+            <h4>Siddarth kaul</h4>
+            <h4>Akash Deep</h4>
+            <button class="butn" onclick="display('sectionRcb')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionSrhret">
+        <div class="team-info-srh">
+            <h1>Retained players</h1>
+            <h4>Abdul Samad</h4>
+            <h4>Abhishek Sharma</h4>
+            <h4>Aiden Markram</h4>
+            <h4>Bhuvneshwar Kumar</h4>
+            <h4>Fazalhaq Farooqi</h4>
+            <h4>Glenn Phillips</h4>
+            <h4>Kartik Tyagi</h4>
+            <h4>Marco Jansen</h4>
+            <h4>Rahul Tripati</h4>
+            <h4>T Natarajan</h4>
+            <h4>Umran Malik</h4>
+            <h4>Washington Sundar</h4>
+            <button class="butn" onclick="display('sectionSrh')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionCsknb">
+        <div class="team-info-csk">
+            <h1>New Buys</h1>
+            <h4>Ajinkya Rahane</h4>
+            <h4>Ben Stokes</h4>
+            <h4>Shaik rasheed</h4>
+            <h4>Nishant Sindhu</h4>
+            <h4>Kyle Jamieson</h4>
+            <h4>Ajay Mandal</h4>
+            <h4>Bhagath Varma</h4>
+            <button class="butn" onclick="display('sectionCsk')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionDcnb">
+        <div class="team-info-dc">
+            <h1>New Buys</h1>
+            <h4>Mukesh Kumar</h4>
+            <h4>Rilee Rossouw</h4>
+            <h4>Manish Pandey</h4>
+            <h4>Phil salt</h4>
+            <h4>Ishant Sharma</h4>
+            <button class="butn" onclick="display('sectionDc')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionGtnb">
+        <div class="team-info-gt">
+            <h1>New Buys</h1>
+            <h4>Kane Williamson</h4>
+            <h4>Shivam Mavi</h4>
+            <h4>Joshua Little</h4>
+            <h4>K.S. Bharat</h4>
+            <h4>Mohit Sharma</h4>
+            <h4>Odean Smith</h4>
+            <h4>Urvil Patel</h4>
+            <button class="butn" onclick="display('sectionGt')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionKkrnb">
+        <div class="team-info-kkr">
+            <h1>New Buys</h1>
+            <h4>Shardul Thakur</h4>
+            <h4>Rahmanullah Gurbaz</h4>
+            <h4>Lockie Ferguson</h4>
+            <h4>Shakib Al Hasan</h4>
+            <h4>David Wiese</h4>
+            <h4>N.Jagadeesan</h4>
+            <h4>Vaibhav Arora</h4>
+            <h4>Mandeep Singh</h4>
+            <h4>Litton Das</h4>
+            <h4>Kulwant Khejroliya</h4>
+            <h4>Suyash Sharma</h4>
+            <button class="butn" onclick="display('sectionKkr')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionLsgnb">
+        <div class="team-info-lsg">
+            <h1>New Buys</h1>
+            <h4>Nicholas Pooran</h4>
+            <h4>Daniel Sams</h4>
+            <h4>Amit Mishra</h4>
+            <h4>Romario Shepherd</h4>
+            <h4>Naveen Ul Haq</h4>
+            <h4>Jaydev Unadkat</h4>
+            <h4>Yash Thakur</h4>
+            <h4>Swapnil Singh</h4>
+            <h4>Yudhvir charak</h4>
+            <h4>Prerak Mankad</h4>
+            <button class="butn" onclick="display('sectionLsg')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionMinb">
+        <div class="team-info-mi">
+            <h1>New Buys</h1>
+            <h4>Cameron Green</h4>
+            <h4>Jhye Richardson</h4>
+            <h4>Piyush Chawla</h4>
+            <h4>Nehal Wadhera</h4>
+            <h4>Raghav Goyal</h4>
+            <h4>Vishnu vinod</h4>
+            <h4>Duan Jansen</h4>
+            <h4>Shams Mulani</h4>
+            <h4>Jason Behrendorff</h4>
+            <button class="butn" onclick="display('sectionMi')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionPknb">
+        <div class="team-info-pk">
+            <h1>New Buys</h1>
+            <h4>Sam Curran</h4>
+            <h4>Sikandar Raza</h4>
+            <h4>Harpreet Bhatia</h4>
+            <h4>Shivam Singh</h4>
+            <h4>Vidwath Kaverappa</h4>
+            <h4>Mohit Rathee</h4>
+            <button class="butn" onclick="display('sectionPk')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionRrnb">
+        <div class="team-info-rr">
+            <h1>New Buys</h1>
+            <h4>Jason Holder</h4>
+            <h4>Adam Zampa</h4>
+            <h4>Joe Root</h4>
+            <h4>Donovan Ferreira</h4>
+            <h4>K.M.Asif</h4>
+            <h4>Abdul P A</h4>
+            <h4>Akash Vashisht</h4>
+            <h4>Kunal Rathore</h4>
+            <h4>Murugan Ashwin</h4>
+            <button class="butn" onclick="display('sectionRr')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionRcbnb">
+        <div class="team-info-rcb">
+            <h1>New Buys</h1>
+            <h4>Will Jacks</h4>
+            <h4>Reece Topley</h4>
+            <h4>Rajan Kumar</h4>
+            <h4>Avinash Singh</h4>
+            <h4>Sonu Yadav</h4>
+            <h4>Himanshu Sharma</h4>
+            <h4>Manoj Bhandage</h4>
+            <button class="butn" onclick="display('sectionRcb')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionSrhnb">
+        <div class="team-info-srh">
+            <h1>New Buys</h1>
+            <h4>Harry Brook</h4>
+            <h4>Heinrich Klaasen</h4>
+            <h4>Vivrant sharma</h4>
+            <h4>Mayank Agarwal</h4>
+            <h4>Mayank Dagar</h4>
+            <h4>Akeal Hosein</h4>
+            <h4>Mayank Markande</h4>
+            <h4>Upendra Singh Yadav</h4>
+            <h4>Sanvir Singh</h4>
+            <h4>Anmolpreet Singh</h4>
+            <h4>Samarth Vyas</h4>
+            <h4>Nitish Kumar Reddy</h4>
+            <h4>Adil Rashid</h4>
+            <button class="butn" onclick="display('sectionSrh')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionCskpl">
+        <div class="team-info-csk">
+            <h1>My playing Eleven</h1>
+            <h4>Ruturaj Gaikwad</h4>
+            <h4>Devon conway</h4>
+            <h4>Ambati Rayudu</h4>
+            <h4>Moeen Ali</h4>
+            <h4>Ben Stokes</h4>
+            <h4>MS Dhoni</h4>
+            <h4>Ravindra Jadeja</h4>
+            <h4>Mahesh Teekshana</h4>
+            <h4>Deepak Chahar</h4>
+            <h4>Mukesh Chowdary</h4>
+            <h4>Mahesh Pathirana</h4>
+            <button class="butn" onclick="display('sectionCsk')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionDcpl">
+        <div class="team-info-dc">
+            <h1>My playing Eleven</h1>
+            <h4>David warner</h4>
+            <h4>Prithvi Shaw</h4>
+            <h4>Manish Pandey</h4>
+            <h4>Mitchell Marsh</h4>
+            <h4>Phil Salt</h4>
+            <h4>Rovman Powell</h4>
+            <h4>Axar Patel</h4>
+            <h4>Chetan Sakariya</h4>
+            <h4>Kuldeep Yadav</h4>
+            <h4>Khaleel Ahmed</h4>
+            <h4>Mustafizur Rahman</h4>
+            <button class="butn" onclick="display('sectionDc')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionGtpl">
+        <div class="team-info-gt">
+            <h1>My playing Eleven</h1>
+            <h4>Shubman Gill</h4>
+            <h4>KS Bharat</h4>
+            <h4>Kane Williamson</h4>
+            <h4>Wriddhiman Saha</h4>
+            <h4>Hardik Pandya</h4>
+            <h4>David Miller</h4>
+            <h4>Rahul Tewatia</h4>
+            <h4>Rashid Khan</h4>
+            <h4>Shivam Mavi</h4>
+            <h4>Alzarri Joseph</h4>
+            <h4>Mohammed Shami</h4>
+            <button class="butn" onclick="display('sectionGt')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionKkrpl">
+        <div class="team-info-kkr">
+            <h1>My playing Eleven</h1>
+            <h4>Venkatesh Iyer</h4>
+            <h4>N Jagadeesan</h4>
+            <h4>Shreyas Iyer</h4>
+            <h4>Nithish Rana</h4>
+            <h4>Shakib Al Hasan</h4>
+            <h4>Andre Russel</h4>
+            <h4>Sunil Narine</h4>
+            <h4>Shardul Thakur</h4>
+            <h4>Tim Southee</h4>
+            <h4>Varun Chakravarthy</h4>
+            <h4>Umesh Yadav</h4>
+            <button class="butn" onclick="display('sectionKkr')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionLsgpl">
+        <div class="team-info-lsg">
+            <h1>My playing Eleven</h1>
+            <h4>KL Rahul</h4>
+            <h4>Quinton de kock</h4>
+            <h4>Deepak Hooda</h4>
+            <h4>Nicholas Pooran</h4>
+            <h4>Marcus Stoinis</h4>
+            <h4>Ayush Badoni</h4>
+            <h4>Krunal Pandya</h4>
+            <h4>Ravi Bishnoi</h4>
+            <h4>Avesh Khan</h4>
+            <h4>Jaydev Unadkat</h4>
+            <h4>Mark Wood</h4>
+            <button class="butn" onclick="display('sectionLsg')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionMipl">
+        <div class="team-info-mi">
+            <h1>My playing Eleven</h1>
+            <h4>Rohit Sharma</h4>
+            <h4>Ishan Kishan</h4>
+            <h4>Tilak Varma</h4>
+            <h4>Suryakumar Yadav</h4>
+            <h4>Cameron Green</h4>
+            <h4>Tim David</h4>
+            <h4>Jhye Richardson</h4>
+            <h4>Jofra Archer</h4>
+            <h4>Hrithik Shokean</h4>
+            <h4>Piyush Chawla</h4>
+            <h4>Jasprit Bumrah</h4>
+            <button class="butn" onclick="display('sectionMi')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionPkpl">
+        <div class="team-info-pk">
+            <h1>My playing Eleven</h1>
+            <h4>Shikar Dhawan</h4>
+            <h4>Jonny Bairstow</h4>
+            <h4>Jitesh Sharma</h4>
+            <h4>Liam Livingstone</h4>
+            <h4>Sharukh Khan</h4>
+            <h4>Sam Curran</h4>
+            <h4>Rahul Chahar</h4>
+            <h4>Harpreet Brar</h4>
+            <h4>Kagiso Rabada</h4>
+            <h4>Arshdeep Singh</h4>
+            <h4>Vidwath Kaverappa</h4>
+            <button class="butn" onclick="display('sectionPk')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionRrpl">
+        <div class="team-info-rr">
+            <h1>My playing Eleven</h1>
+            <h4>Jos Buttler</h4>
+            <h4>Yashasvi Jaiswal</h4>
+            <h4>Devdutt Padikkal</h4>
+            <h4>Sanju Samson</h4>
+            <h4>Shimron Hetmyer</h4>
+            <h4>Riyan Parag</h4>
+            <h4>Ravichandran Ashwin</h4>
+            <h4>Trent Boult</h4>
+            <h4>Yuzvendra Chahal</h4>
+            <h4>Obed McCoy</h4>
+            <h4>Prasidh Krishna</h4>
+            <button class="butn" onclick="display('sectionRr')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionRcbpl">
+        <div class="team-info-rcb">
+            <h1>My playing Eleven</h1>
+            <h4>Anuj Rawat</h4>
+            <h4>Faf du Plessis</h4>
+            <h4>Virat Kohli</h4>
+            <h4>Rajat Patidar</h4>
+            <h4>Glenn Maxwell</h4>
+            <h4>Dinesh Karthik</h4>
+            <h4>Shahbaz Ahmed</h4>
+            <h4>Wanindhu Hasaranga</h4>
+            <h4>Mohammed Siraj</h4>
+            <h4>Harshal Patel</h4>
+            <h4>Josh Hazlewood</h4>
+            <button class="butn" onclick="display('sectionRcb')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <div id="sectionSrhpl">
+        <div class="team-info-srh">
+            <h1>My playing Eleven</h1>
+            <h4>Mayank Agarwal</h4>
+            <h4>Abhishek Singh</h4>
+            <h4>Rahul Tripati</h4>
+            <h4>Harry Brook</h4>
+            <h4>Aiden Markram</h4>
+            <h4>Glenn Phillips</h4>
+            <h4>Washington Sundar</h4>
+            <h4>Marco Jansen</h4>
+            <h4>Umran Malik</h4>
+            <h4>Bhuvneshwar Kumar</h4>
+            <h4>T Natarajan</h4>
+            <button class="butn" onclick="display('sectionSrh')">Back</button>
+            <button class="butn" onclick="display('sectionHome')">Home</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
