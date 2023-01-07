@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home {
+    background-color: #3a0f7a;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.text-dec {
+    text-decoration: underline;
+}
+
+.text1 {
+    font-family: "caveat";
+    color: white;
+    text-align: center;
+}
+
+.text {
+    font-family: "Roboto";
+    color: black;
+    text-align: center;
+}
+
+.butn1 {
+    text-align: center;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.team-logo_bg {
+    background-color: #383380;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+.teams {
+    text-align: center;
+}
+
+.team-logo-text {
+    font-family: "Caveat";
+    color: #c2b9c4;
+}
+
+.team-info-csk {
+    background-image: url("https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/CSK/Banner/CSK.png");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-dc {
+    background-image: url("https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/DC/Banner/DCbanner.png");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-gt {
+    background-image: url("https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/GT/Banner/GTBanner.png");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-kkr {
+    background-image: url("https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/KKR/Banner/KKRbanner.png");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-lsg {
+    background-image: url("https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/LSG/Banner/LSGbanner.png");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-mi {
+    background-image: url("https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/MI/Banner/MIbanner.jpg");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-pk {
+    background-image: url("https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/PBKS/Banner/PBKSbanner.png");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-rr {
+    background-image: url("https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/RR/Banner/RRbanner.png");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-rcb {
+    background-image: url("https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/RCB/Banner/RCBbanner.png");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.team-info-srh {
+    background-image: url("https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/SRH/Banner/SRHbanner.png");
+    background-size: cover;
+    height: 120vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.player-img {
+    height: 50px;
+    width: 50px;
+}
+
+.butn {
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
